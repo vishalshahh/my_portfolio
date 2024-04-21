@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Java Development (Intern)",
-    location: "Remote",
-    description:
-      "Deployed three Java projects including Time Conversion by Country, Library Book Issue and Return System, and Exam Seating Arrangement System, integrating PHP, HTML, CSS, JavaScript, MySQL, and jQuery for comprehensive functionality.",
-    icon: React.createElement(CgWorkAlt),
-    date: "July 2023 - August 2023",
-  },
-  {
-    title: "Data Analytics Process Automation (Intern) | Alteryx ",
-    location: "Remote",
-    description:
-      "Identified and resolved data quality issues using Alteryx Designer, resulting in a 25% improvement in data accuracy and eliminating 80% of data-related errors in reporting.",
-    icon: React.createElement(LuGraduationCap),
-    date: "Sept 2023 - Nov 2023",
-  },
-  {
     title: "Full-Stack Developer",
     location: "New Delhi, India",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2024 - present",
+  },
+  {
+    title: "Data Analytics Process Automation (Intern) | Alteryx ",
+    location: "Remote",
+    description:
+    "Identified and resolved data quality issues using Alteryx Designer, resulting in a 25% improvement in data accuracy and eliminating 80% of data-related errors in reporting.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Sept 2023 - Nov 2023",
+  },
+  {
+    title: "Java Development (Intern)",
+    location: "Remote",
+    description:
+      "Deployed three Java projects including Time Conversion by Country, Library Book Issue and Return System, and Exam Seating Arrangement System, integrating PHP, HTML, CSS, JavaScript, MySQL, and jQuery for comprehensive functionality.",
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2023 - August 2023",
   },
 ] as const;
 

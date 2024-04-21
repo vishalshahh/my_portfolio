@@ -100,6 +100,16 @@ export default function Intro() {
           Download Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
+        </motion.div>
+        <motion.div
+                className="flex mt-6 sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                  delay: 0.1,
+                }}
+        
+        >
 
         <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
