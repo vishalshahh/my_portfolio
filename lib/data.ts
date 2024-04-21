@@ -70,7 +70,7 @@ export const projectsData = [
     imageUrl: ImminentAgentImg,
   },
   {
-    title: "Studen Management System",
+    title: "Student Management System",
     description:
       "This is an Implementation of student attendace system to keep track of all the records regarding students Performance.",
     tags: ["HTML", "CSS", "JavaScript", "mySql", "Php"],

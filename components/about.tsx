@@ -26,7 +26,7 @@ export default function About() {
           Java, React, Next.js, Node.js, and MongoDB </span></span> {" "}with additional familiarity in <span className="font-medium">
           TypeScript and Prisma. </span> Eager to expand my repertoire, I am constantly seeking opportunities to familiarize myself with new technologies. Currently, I am actively seeking a full-time position as a software developer.{" "} </p>
           <p>
-          Outside of coding, I find joy in gaming, movies, and the intellectual challenge of chess. Moreover, I am devoted to continuous learning, and I am currently immersing myself in the realms of Docker and Kubernetes
+          Outside of coding, I find joy in gaming, movies, and the intellectual challenge of chess. Moreover, I am devoted to continuous learning, and I am currently immersing myself in the realms of Docker and Kubernetes.
       </p>
     </motion.section>
   );
