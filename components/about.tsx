@@ -19,29 +19,14 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      I am a driven full-stack web developer currently pursuing B.Tech in {" "}
-        <span className="font-medium">Computer Science Engineering</span> at G.L Bajaj Institute of Technology & Management, Greater Noida. I decided to pursue my passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          Java, React, Next.js, Node.js, and MongoDB
-        </span>
-        . I&apos; am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I am not coding</span>, I enjoy playing
-        video games, watching movies, and playing chess. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">Docker and Kubernetes </span>. I am also
-        learning how to play the guitar.
+      As an aspiring full-stack web developer pursuing a B.Tech in {" "}
+        <span className="font-medium">Computer Science Engineering</span> at G.L Bajaj Institute of Technology & Management, Greater Noida. I have embarked on a journey to pursue my passion for programming. Enrolling in a multiple coding bootcamps has equipped me with the skills in{" "}
+        <span className="font-medium">full-stack web development</span>.{" "} and I find immense satisfaction in the problem-solving aspect of programming. {" "}
+        <span className="italic">My primary stack includes <span className="font-medium">
+          Java, React, Next.js, Node.js, and MongoDB </span></span> {" "}with additional familiarity in <span className="font-medium">
+          TypeScript and Prisma. </span> Eager to expand my repertoire, I am constantly seeking opportunities to familiarize myself with new technologies. Currently, I am actively seeking a full-time position as a software developer.{" "} </p>
+          <p>
+          Outside of coding, I find joy in gaming, movies, and the intellectual challenge of chess. Moreover, I am devoted to continuous learning, and I am currently immersing myself in the realms of Docker and Kubernetes
       </p>
     </motion.section>
   );

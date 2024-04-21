@@ -1,7 +1,7 @@
 import React from 'react';
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LiaJava } from "react-icons/lia";
+import { RiTeamLine } from "react-icons/ri";
+import { SiFreelancer } from "react-icons/si";
 import ImminentAgentImg from "@/public/Imminent-Agent.png";
 import StudentManagementSystemImg from "@/public/StudentManagementSystem.png";
 import TwitterCloneImg from "@/public/TwitterClone.png";
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Java Development (Intern)",
-    location: "Remote",
+    title: "Full-Stack Developer",
+    location: "New Delhi, India",
     description:
-      "Deployed three Java projects including Time Conversion by Country, Library Book Issue and Return System, and Exam Seating Arrangement System, integrating PHP, HTML, CSS, JavaScript, MySQL, and jQuery for comprehensive functionality.",
-    icon: React.createElement(CgWorkAlt),
-    date: "July 2023 - August 2023",
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(SiFreelancer),
+    date: "2024 - present",
   },
   {
     title: "Data Analytics Process Automation (Intern) | Alteryx ",
     location: "Remote",
     description:
       "Identified and resolved data quality issues using Alteryx Designer, resulting in a 25% improvement in data accuracy and eliminating 80% of data-related errors in reporting.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(RiTeamLine),
     date: "Sept 2023 - Nov 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "New Delhi, India",
+    title: "Java Development (Intern)",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2024 - present",
+      "Deployed three Java projects including Time Conversion by Country, Library Book Issue and Return System, and Exam Seating Arrangement System, integrating PHP, HTML, CSS, JavaScript, MySQL, and jQuery for comprehensive functionality.",
+    icon: React.createElement(LiaJava),
+    date: "July 2023 - August 2023",
   },
 ] as const;
 
@@ -69,7 +69,7 @@ export const projectsData = [
     imageUrl: ImminentAgentImg,
   },
   {
-    title: "Studen Management System",
+    title: "Student Management System",
     description:
       "This is an Implementation of student attendace system to keep track of all the records regarding students Performance.",
     tags: ["HTML", "CSS", "JavaScript", "mySql", "Php"],
@@ -96,9 +96,7 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
   "GraphQL",
-  "Express",
   "PostgreSQL",
   "Python",
   "Django",
