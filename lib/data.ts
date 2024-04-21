@@ -1,7 +1,7 @@
 import React from 'react';
 import { LiaJava } from "react-icons/lia";
-import { RiTeamLine } from "react-icons/ri";
 import { SiFreelancer } from "react-icons/si";
+import { HiOutlineUserGroup } from "react-icons/hi";
 import ImminentAgentImg from "@/public/Imminent-Agent.png";
 import StudentManagementSystemImg from "@/public/StudentManagementSystem.png";
 import TwitterCloneImg from "@/public/TwitterClone.png";
@@ -47,7 +47,7 @@ export const experiencesData = [
     location: "Remote",
     description:
       "Identified and resolved data quality issues using Alteryx Designer, resulting in a 25% improvement in data accuracy and eliminating 80% of data-related errors in reporting.",
-    icon: React.createElement(RiTeamLine),
+    icon: React.createElement(HiOutlineUserGroup),
     date: "Sept 2023 - Nov 2023",
   },
   {
@@ -58,6 +58,7 @@ export const experiencesData = [
     icon: React.createElement(LiaJava),
     date: "July 2023 - August 2023",
   },
+
 ] as const;
 
 export const projectsData = [
@@ -69,7 +70,7 @@ export const projectsData = [
     imageUrl: ImminentAgentImg,
   },
   {
-    title: "Student Management System",
+    title: "Studen Management System",
     description:
       "This is an Implementation of student attendace system to keep track of all the records regarding students Performance.",
     tags: ["HTML", "CSS", "JavaScript", "mySql", "Php"],
